@@ -18,10 +18,12 @@
 5.最后一步**【这步很重要，不设置可能无法科学上网】**
  
   设置 centos7 的vps开放 防火墙端口（你设置的那个端口）
-firewall-cmd --permanent --zone=public --add-port=25482(换成自己端口号)/tcp
-firewall-cmd --permanent --zone=public --add-port=25482/udp
-firewall-cmd --reload
+  
+  
+* firewall-cmd --permanent --zone=public --add-port=25482(换成自己端口号)/tcp
+* firewall-cmd --permanent --zone=public --add-port=25482/udp
+* firewall-cmd --reload
 **查看是否开启**
-firewall-cmd --list-all
+* firewall-cmd --list-all
 
    
