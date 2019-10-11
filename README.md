@@ -9,10 +9,10 @@
 2. 输入  bash <(curl -s -L https://git.io/v2ray.sh)
 
 3. 如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl
-    ubuntu/debian 系统安装 Curl 方法: apt-get update -y && apt-get install curl -y
-    centos 系统安装 Curl 方法: yum update -y && yum install curl -y
-    安装好 curl 之后就能安装脚本了
-
+ubuntu/debian 系统安装 Curl 方法: apt-get update -y && apt-get install curl -y
+centos 系统安装 Curl 方法: yum update -y && yum install curl -y
+安装好 curl 之后就能安装脚本了
+    
 4. 按照提示安装完成；
 
 5.最后一步   **（这步很重要，不设置可能无法科学上网）**
